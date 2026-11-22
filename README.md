@@ -1,12 +1,18 @@
-# React + Vite
+# Sortify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sortify is an interactive sorting algorithm visualizer built with React and Vite. Watch Bubble Sort, Merge Sort, Quick Sort, and other algorithms reorder an array.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+With Node.js 22, install dependencies and start Vite.
 
-## Expanding the ESLint configuration
+    npm ci
+    npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open the local URL printed by Vite. Select an algorithm and start the animation. Adjust the array size or animation speed, or pause to inspect an intermediate state.
+
+Run the following command to create a production build in dist/.
+
+    npm run build
+
+Feature overview adapted from [Anushika Gupta's Sortify documentation](https://github.com/guptaanushika37/sortify-/commit/d8330404a4059cdd6dba2bb7c5c5c4d3e2fa1eff).
